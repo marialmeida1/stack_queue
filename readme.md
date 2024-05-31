@@ -36,7 +36,7 @@ int main(void) {
 
 O primeiro nó da lista criado foi o de id igual 1, entretando é o último a ser apontado pela estrutura.
 
-![alt text](/assetimage-1.png)
+![alt text](/assets/image-1.png)
 
 ## Pilhas
 
