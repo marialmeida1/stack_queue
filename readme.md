@@ -6,7 +6,7 @@ Sou estudante do curso "Algoritmos e Estruturas de Dados 1" e, como parte dos me
 
 É um estrutura conhecida como lista encadeada, no qual o primeiro elemento referencia o próximo por meio de um ponteiro em sua estrutura struct. Seu último elemento e ponteiro armazenam um resultado igual a null, destacando assim o fim do procedimento. São armazenados em nós individuais, aonde o ponteiro aponta para o próximo da lista.
 
-![alt text](image.png)
+![alt text](/assets/image.png)
 
 #### O primeiro da lista é o último adicionado! As listas não seguem ordem de retirada.
 
@@ -36,13 +36,13 @@ int main(void) {
 
 O primeiro nó da lista criado foi o de id igual 1, entretando é o último a ser apontado pela estrutura.
 
-![alt text](image-1.png)
+![alt text](/assetimage-1.png)
 
 ## Pilhas
 
 Considerada uma estrutura de dados simples, seu acesso é dado pelo topo dos elementos. Desse modo, "o último a chamar, é o primeiro a sair" (LIFO = Last in, first out).
 
-![alt text](image-2.png)
+![alt text](/assets/image-2.png)
 
 #### O último adicionado é o primeiro retirado!
 
@@ -89,11 +89,11 @@ A estrutura Pilha funciona de modo muito similar com uma Lista até a função p
 
 #### Apontamento - Função PUSH
 
-![alt text](image-3.png)
+![alt text](/assets/image-3.png)
 
 #### Apontamento - Função POP
 
-![alt text](image-4.png)
+![alt text](/assets/image-4.png)
 
 ## Filas
 
@@ -162,8 +162,8 @@ Em enqueue a primeira função é alocar o fim sempre para um novo nó enquanto 
 
 #### Apontamento - Função enqueue
 
-![alt text](image-5.png)
+![alt text](/assets/image-5.png)
 
 #### Apontamento - Função dequeue
 
-![alt text](image-6.png)
+![alt text](/assets/image-6.png)
