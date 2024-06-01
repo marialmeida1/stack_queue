@@ -26,7 +26,7 @@ Lista* insere(Lista* l, int i){
 int main(void) {
     Lista *l = NULL;
 
-    for(int i=1; i<=3; i++>){
+    for(int i=1; i<=3; i++){
         l = insere(l, i);
     }
 }
@@ -98,6 +98,8 @@ A estrutura Pilha funciona de modo muito similar com uma Lista até a função p
 ## Filas
 
 Em filas a estrutura também seguem regras. Com as filas podemos somente adicionar no final da lista e returar os valores somente no início.
+
+![alt text](image.png)
 
 ```c
 #include <stdio.h>
