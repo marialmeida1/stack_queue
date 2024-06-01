@@ -99,7 +99,7 @@ A estrutura Pilha funciona de modo muito similar com uma Lista até a função p
 
 Em filas a estrutura também seguem regras. Com as filas podemos somente adicionar no final da lista e returar os valores somente no início.
 
-![alt text](image.png)
+![alt text](/assets/image-7.png)
 
 ```c
 #include <stdio.h>
