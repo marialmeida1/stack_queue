@@ -4,7 +4,7 @@ Sou estudante do curso "Algoritmos e Estruturas de Dados 1" e, como parte dos me
 
 ## Lista
 
-É um estrutura conhecida como lista encadeada, no qual o primeiro elemento referencia o próximo por meio de um ponteiro em sua estrutura struct. Seu último elemento e ponteiro armazenam um resultado igual a null, destacando assim o fim do procedimento. São armazenados em nós individuais, aonde o ponteiro aponta para o próximo da lista.
+É um estrutura conhecida como 'lista encadeada', no qual o primeiro elemento referencia o próximo por meio de um ponteiro em sua estrutura struct. Seu último elemento e ponteiro armazenam um resultado igual a null, destacando assim o fim do procedimento. São armazenados em nós individuais, aonde o ponteiro aponta para o próximo da lista.
 
 ![alt text](/assets/image.png)
 
@@ -85,7 +85,7 @@ int main(void){
 }
 ```
 
-A estrutura Pilha funciona de modo muito similar com uma Lista até a função pop. Visto que, cria nós os quais chamam os outros nós criados anteriormente. Entretando, na função pop, é retirado o último elemento adicionado a pilha. Dessa maneira, é criado dentro de pop um elemento auxiliar que aponta para o último elemento, fazendo com que ele seja liberado e que p, aponte para o outro elemento da pilha.
+A estrutura Pilha funciona de modo muito similar com uma Lista até a função 'pop'. Visto que, cria nós os quais chamam os outros nós criados anteriormente. Entretando, na função 'pop', é retirado o último elemento adicionado a pilha. Dessa maneira, é criado dentro de pop um elemento auxiliar que aponta para o último elemento, fazendo com que ele seja liberado e que 'p', aponte para o outro elemento da pilha.
 
 #### Apontamento - Função PUSH
 
@@ -97,7 +97,7 @@ A estrutura Pilha funciona de modo muito similar com uma Lista até a função p
 
 ## Filas
 
-Em filas a estrutura também seguem regras. Com as filas podemos somente adicionar no final da lista e returar os valores somente no início.
+Em filas a estrutura também seguem regras. Com as filas podemos somente adicionar no final da lista e retirar os valores somente no início. Elas seguem a lógica FIFO (First in, First Out), "primeiro a entrar, último a sair".
 
 ![alt text](/assets/image-7.png)
 
@@ -159,8 +159,8 @@ int main(void){
 }
 ```
 
-Para a criação de uma fila temos que ter uma struct auxiliar que possa servir de referência sobre qual é o início e fim da fila. Quando
-Em enqueue a primeira função é alocar o fim sempre para um novo nó enquanto que início somente é alocado se a fila estiver vazia, sendo assim, invariável. Já em dequeue pega-se o primeiro valor inserido, ou seja, na struct Fila Encadeada e adiciona a um valor temporário, para que assim ele possa ser excluído. Após atualiza o inicio para outro ponto da fila, desse modo, se tornando variável.
+Para a criação de uma fila temos que ter uma struct auxiliar que possa servir de referência sobre qual é o início e fim da fila.
+Em 'enqueue' a primeira função é alocar o 'fim' sempre para um novo nó enquanto que 'início' somente é alocado se a fila estiver vazia, sendo assim, invariável. Já em 'dequeue' pega-se o primeiro valor inserido, ou seja, na struct Fila Encadeada e adiciona a um valor temporário, para que assim ele possa ser excluído. Posteriormente, o 'inicio' é atualizado para outro ponto da fila, desse modo, se tornando variável.
 
 #### Apontamento - Função enqueue
 
@@ -169,3 +169,7 @@ Em enqueue a primeira função é alocar o fim sempre para um novo nó enquanto 
 #### Apontamento - Função dequeue
 
 ![alt text](/assets/image-6.png)
+
+## Conclusão
+
+Este repositório contém exemplos básicos de listas, pilhas e filas em C, cada uma com suas próprias particularidades e usos. As listas são flexíveis e permitem inserções e remoções em qualquer posição. Pilhas seguem a lógica de LIFO, onde o último elemento inserido é o primeiro a ser removido. Filas seguem a lógica de FIFO, onde o primeiro elemento inserido é o primeiro a ser removido. Entender e implementar essas estruturas de dados é fundamental para a construção de algoritmos eficientes.
